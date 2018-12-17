@@ -44,6 +44,9 @@ public static WaveManager Instance;
                 activatedWaves.Add(enemyWave);
                 spawnCounter = 0f;
                 GameManager.Instance.waveNumber++;
+
+                UIManager.Instance.ShowCenterWindow("Wave " + GameManager.
+ Instance.waveNumber);
                 //6
                 break;
             }
